@@ -1,0 +1,21 @@
+{
+  "name": "generator-example-app",
+  "version": "1.0.0",
+  "description": "Example Yeoman generator",
+  "main": "app/index.js",
+  "files": [
+    "app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jizza/generator-example-app.git"
+  },
+  "dependencies": {
+    "chalk-pipe": "^4.0.0",
+    "gulp-rename": "<1.2.3",
+    "yeoman-generator": "^4.10.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
